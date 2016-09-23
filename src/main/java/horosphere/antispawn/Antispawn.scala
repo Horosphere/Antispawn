@@ -13,4 +13,5 @@ object Antispawn {
   def onInitialisation(event: FMLInitializationEvent): Unit = {
     MinecraftForge.EVENT_BUS register EventHandler
   }
+
 }
